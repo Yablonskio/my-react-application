@@ -17,6 +17,7 @@ import Smartphone from "./myComponent/Pages/blog/Smartphone"
 import RocketBlankTextImage from "./myComponent/Pages/blog/RocketBlankTextImage"
 import Brain from "./myComponent/Pages/blog/Brain"
 // ^ pages
+
 let logoUlimg1 = [
     image.logoUl1,
     image.logoUl2,
@@ -30,10 +31,6 @@ let logoUlimg2 = [
     image.logoUl14,
     image.logoUl15
 ]
-
-
-
-
 
 function App() {
   return (
@@ -59,86 +56,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <BlankTextImage
-            img={brain}
-            imgButton1={false}
-            imgButton2={false}
-            reverse={true}
-            h1Text={"Apply AI, Deep Learning and Data Sciece to solve"}
-            mainText={"Lorem ipsum is placeholder text commonly used" +
-                " in the graphic, print, and publishing industries" +
-                " for previewing layouts and visual mockups."}
-            button={1}
-            button1={"Learn More"}
-        />
-        <UlFlex
-            count={5}
-            img={logoUl}
-            img1={logoUl11}
-            img2={logoUl12}
-            img3={logoUl13}
-            img4={logoUl11}
-            img5={logoUl11}
-
-
-
-        />
-        <BlankTextImage
-            img={smartphone}
-            imgButton1={false}
-            imgButton2={false}
-            reverse={false}
-            h1Text={"What our clients say about our awesome solutions"}
-            mainText={"To take a trivial example, which of us ever" +
-                " undertakes laborious physical exercise, except to" +
-                " obtain some advantage from it who do not know." +
-                "Lorem ipsum is placeholder text commonly used in" +
-                " the graphic, print, and publishing ." +
-                "Lorem ipsum is placeholder previewing layouts and" +
-                " visual mockups. Lorem ipsum is placeholder text" +
-                " commonly used in the graphic, print, and publishing" +
-                " industries for previewing layouts and visual mockups."}
-            button={0}
-        />
- */
