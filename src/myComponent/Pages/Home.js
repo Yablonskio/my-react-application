@@ -50,24 +50,24 @@ function Home() {
             <UlFlexImgText
                 count={5}
                 img={logoUlImg2}
-                h1Text1={'Naxly as the Winners in Global Agency Awards'}
+                h1Text0={'Naxly as the Winners in Global Agency Awards'}
+                text0={'Lorem ipsum is placeholder text commonly used' +
+                    ' in print, and publishing industries for previewing' +
+                    ' layouts and visual mockups.'}
+                h1Text1={'Expert Prespective Agency Awards'}
                 text1={'Lorem ipsum is placeholder text commonly used' +
                     ' in print, and publishing industries for previewing' +
                     ' layouts and visual mockups.'}
-                h1Text2={'Expert Prespective Agency Awards'}
+                h1Text2={'Business Prespective Global Agency Awards'}
                 text2={'Lorem ipsum is placeholder text commonly used' +
                     ' in print, and publishing industries for previewing' +
                     ' layouts and visual mockups.'}
-                h1Text3={'Business Prespective Global Agency Awards'}
+                h1Text3={'Value for Results in Global Agency Awards'}
                 text3={'Lorem ipsum is placeholder text commonly used' +
                     ' in print, and publishing industries for previewing' +
                     ' layouts and visual mockups.'}
-                h1Text4={'Value for Results in Global Agency Awards'}
+                h1Text4={'Global Experience in Agency Awards'}
                 text4={'Lorem ipsum is placeholder text commonly used' +
-                    ' in print, and publishing industries for previewing' +
-                    ' layouts and visual mockups.'}
-                h1Text5={'Global Experience in Agency Awards'}
-                text5={'Lorem ipsum is placeholder text commonly used' +
                     ' in print, and publishing industries for previewing' +
                     ' layouts and visual mockups.'}
                 backgroundColor={'#070e17'}

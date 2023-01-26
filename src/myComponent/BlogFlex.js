@@ -1,4 +1,5 @@
-import image from "../image";
+import {useEffect} from "react";
+
 function BlogFlex(props) {
     const css = {
         body : {
@@ -40,8 +41,9 @@ function BlogFlex(props) {
         }
         return true
     }
+
     return (
-        <div style={css.body}>
+        <div style={css.body} onClick={_=>window.scroll({top: 0, left: 0})}>
             {img(props.img)}
             <text style={css.text}>{props.text}</text>
         </div>

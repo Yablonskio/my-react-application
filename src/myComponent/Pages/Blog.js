@@ -1,10 +1,12 @@
 import BlankTextImage from "../BlankTextImage";
-import UlFlex from "../UlFlex";
-import UlFlexImgText from "../UlFlexImgText";
 import BlogFlex from "../BlogFlex";
 import image from "../../image";
 import {Link} from 'react-router-dom'
+import {useEffect} from "react";
+
+
 function Blog() {
+
     const css = {
         ul : {
             listStyleType: 'none',

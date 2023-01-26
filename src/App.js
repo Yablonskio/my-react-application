@@ -1,11 +1,9 @@
-import {Route, Routes, Link} from "react-router-dom"
+import {Route, Routes} from "react-router-dom"
 import './App.css'
-import image from "./image";
 // components
 import Top from "./myComponent/Top";
 import Footer from "./myComponent/Footer";
 // ^ components
-
 // pages
 import Home from "./myComponent/Pages/Home"
 import About from "./myComponent/Pages/About"
@@ -18,26 +16,13 @@ import RocketBlankTextImage from "./myComponent/Pages/blog/RocketBlankTextImage"
 import Brain from "./myComponent/Pages/blog/Brain"
 // ^ pages
 
-let logoUlimg1 = [
-    image.logoUl1,
-    image.logoUl2,
-    image.logoUl3,
-    image.logoUl4
-]
-let logoUlimg2 = [
-    image.logoUl11,
-    image.logoUl12,
-    image.logoUl13,
-    image.logoUl14,
-    image.logoUl15
-]
 
 function App() {
   return (
     <div className="App">
         <Top />
         <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/servises" element={<Servises />} />
             <Route path="/blog" element={<Blog />} />

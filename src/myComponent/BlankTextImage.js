@@ -1,6 +1,7 @@
-
+import {useEffect} from "react";
 
 function BlankTextImage(props) {
+
     let colorBody = '#0d1a2c';let widthText = '600px';
     let alignText = 'flexStart'
     if (props.dark) colorBody = '#070e17'
@@ -64,6 +65,8 @@ function BlankTextImage(props) {
             color: 'white',
             fontSize: '20px',
             lineHeight: '27px',
+            cursor: 'pointer',
+            userSelect: 'none',
 
             border: 'none',
             borderRadius: '5px'

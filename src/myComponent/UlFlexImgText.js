@@ -1,6 +1,6 @@
-
-
+import {useState, useEffect} from "react";
 function UlFlexImgText(props) {
+    const [offsetWidth, setOffsetWidth] = useState(document.body.offsetWidth)
     const css = {
         body : {
             width: '100%',
@@ -9,14 +9,7 @@ function UlFlexImgText(props) {
             paddingTop: '10px',
             paddingBottom: '10px',
 
-            backgroundColor: props.backgroundColor
-        },
-        ul : {
-            width: '100%',
-
-            padding: '0',
-
-            listStyleType: 'none',
+            backgroundColor: props.backgroundColor,
 
             display: 'flex',
             justifyContent: 'space-between',
@@ -24,6 +17,7 @@ function UlFlexImgText(props) {
         },
         element : {
             maxWidth: '350px',
+            minHeight: offsetWidth < 1470 ? '300px' : '240px',
 
             padding: '3px',
             paddingTop: '20px',
@@ -42,61 +36,31 @@ function UlFlexImgText(props) {
             border: '10px solid ' + props.backgroundColor
         },
         elementImg : {
-            maxHeight: '100px'
+            maxHeight: '100px',
         }
     }
-    const UlForm = (count) => {
-        let h1Text = eval('props.h1Text' + count);
-        let text = eval('props.text' + count);
-        return (
-            <div style={css.element}>
-                <img src={props.img[count - 1]} alt=""
-                style={css.elementImg}/>
-                <h2>{h1Text}</h2>
-                <text>{text}</text>
-            </div>
-        )
-    }
-    const countCheck = (count) => {
-        if (count === 4) {
-            return (
-                <ul style={css.ul}>
-                    <li>{UlForm(1)}</li>
-                    <li>{UlForm(2)}</li>
-                    <li>{UlForm(3)}</li>
-                    <li>{UlForm(4)}</li>
-                </ul>
-            )
-        } else if (count === 5) {
-            return (
-                <ul style={css.ul}>
-                    <li>{UlForm(1)}</li>
-                    <li>{UlForm(2)}</li>
-                    <li>{UlForm(3)}</li>
-                    <li>{UlForm(4)}</li>
-                    <li>{UlForm(5)}</li>
-                </ul>
-            )
-        } else if (count === 6) {
-            return (
-                <ul style={css.ul}>
-                    <li>{UlForm(1)}</li>
-                    <li>{UlForm(2)}</li>
-                    <li>{UlForm(3)}</li>
-                    <li>{UlForm(4)}</li>
-                    <li>{UlForm(5)}</li>
-                    <li>{UlForm(6)}</li>
-                </ul>
-            )
-        }
-    }
+    window.addEventListener('resize', _=>{
+        setOffsetWidth(document.body.offsetWidth)
+    })
 
 
+
+
+    const state = []
+    for (let i = 0; i < props.count; i++) {
+        state.push(i)
+    }
+    console.log(document.body.offsetWidth)
     return (
         <div style={css.body}>
-            {countCheck(props.count)}
-
-
+            {state.map(state=>
+              <div style={css.element}>
+                <img src={props.img[state]} alt=""
+                   style={css.elementImg}/>
+              <h2>{eval('props.h1Text' + state.toString())}</h2>
+              <text>{eval('props.h1Text' + state.toString())}</text>
+            </div>
+            )}
         </div>
     )
 }
