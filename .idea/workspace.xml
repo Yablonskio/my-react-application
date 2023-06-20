@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dcb6a26-6384-4afd-ba55-eaf7139d6901" name="Changes" comment="" />
+    <list default="true" id="4dcb6a26-6384-4afd-ba55-eaf7139d6901" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.7f32bc38.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.7f32bc38.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/787.59833302.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/787.59833302.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.4d91b8e0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.4d91b8e0.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.4d91b8e0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/arificial-intelligence-footer.e1a2bad35231edea1a35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/artificial-intelligence.edd5b5ee26339312ac88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/brain.76156916b1381236d4cb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/loading.a7b4e86efcc0567f9da7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/logoUl1.0b6f5f39e3646001b6d1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/logoUl11.586cadea3f27c1e25b5d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/logoUl12.608397badcc37648e9a6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/logoUl13.1005a32b788610ccc80f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/logoUl14.b4ebd610acbd6637f92b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/logoUl15.d299e77f15c6566fd81e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/logoUl2.412b74e78642335b643a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/logoUl4.36c7b0394b53e56831b9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/rocket.10a5279791cbe019aa25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/smartphone.6ef31dd92ca3c1ddb884.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,5 +71,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
